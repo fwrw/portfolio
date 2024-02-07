@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="assets/css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  </head>
+  <body>
+    
+    <section id="header">
+      <div class="container">
+        <div id="picture">          <!-- photohere -->
+          <img src="assets/img/pfp.jpeg" alt="pfp">
+        </div>
+     
+        <div id="menu" >
+          <ul id="info-list">         <!-- Informations Here -->
+            <li><h1>Hello there!</h1></li>
+            <li><span class="menu-btn">Who am i</span></li>
+            <li><span class="menu-btn">Projects</span></li>
+            <li><span class="menu-btn">Learning</span></li>
+            <li><span class="menu-btn">Contact</span></li>
+          </ul>
+        </div>
+      </div> 
+    </section>  
+
+    <section id="about">
+      
+      <div class="container">
+        <header>
+          <h1>Who am i</h1>
+        </header>
+
+        <div id="aboutParagraph">
+          <p> Hello! I'm Rafael, I'm 20 years old, and I'm currently a student of Information Technology (IT) at IFPE, focused in back-end applications development.</p>
+        </div>  
+      </div>
+       
+
+    </section>
+
+
+    <section id="projects">
+    
+      <div class="container">
+      
+        <div class="swiper" style="padding: 13px;">
+          <div class="swiper-wrapper" style="width: 100%;">
+            <div class="swiper-slide">
+              <img class="slider" 
+                src="https://64.media.tumblr.com/dc041ad668f6ae0df6a5bcad977dd8e7/be62f9a0af3733fb-50/s1280x1920/bf009ff2788181ebd3a738104d938e2ce3d7f1be.pnj"
+                alt="my first lib in php">
+              <div class="desc" >
+                <h1>Text Helper <a target="_blank" style="text-decoration: none;" href="https://github.com/fwrw/text-helper">&#x1F855;</a></h1>
+                <span>A Simple PHP lib</span>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img class="slider" 
+              src="https://64.media.tumblr.com/0ee3c84a1fcb4e23e5b7248d38f3ff1d/98b022a04afa8fae-31/s1280x1920/da26b3488f9d4d847e9bfbb031dad7fe429974df.jpg" alt="my first game, developed in Svelte.js, also my first project">
+              <div class="desc" >
+                <h1>Codigos Celestiais <a target="_blank" style="text-decoration: none;" href="https://github.com/JulioLeandro12/Codigos-Celestiais">&#x1F855;</a></h1>
+                <span>A browser-game</span>
+              </div>  
+            </div>
+
+            <div class="swiper-slide">
+              <img class="slider" 
+              src="https://64.media.tumblr.com/b01a303a13d58878bd26db747972482d/1ce03bf83c6698b6-5a/s1280x1920/31fd88984547965e27694b20fe1bd52e4b86128c.pnj" alt="my second project, a personal gallery social media">
+              <div class="desc" >
+                <h1>Spectrum <a target="_blank" style="text-decoration: none;" href="https://github.com/SingapuraJs/Spectrum">&#x1F855;</a></h1>
+                <span>A personal gallery social media :)</span>
+              </div> 
+            </div>
+
+            <div class="swiper-slide">
+              <img class="slider" 
+              src="https://64.media.tumblr.com/9ae8b16dd6707d295a48c6a15466a647/4cb77acfb4bf47b0-56/s1280x1920/0eb4656c6d868e3a85d3a044c39ff30fd2ac2fe1.pnj" alt="an yu-gi-oh random card generator, consuming an api">
+              <div class="desc" >
+                <h1>yugioh-deck <a target="_blank" style="text-decoration: none;" href="https://github.com/fwrw/yugioh-deck">&#x1F855;</a></h1>
+                <span>A yugioh card generator, consuming Api</span>
+              </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+        
+      </div>
+    </section>
+  
+
+    <section id="learning" style="background-color: grey; color: white;">
+      <div class="container">
+         <header id="learningHeader">
+          <h1>What i'm currently learning:</h1>
+        </header>
+
+        <ul id="learningList">
+          <li>
+            <div class="listItem">
+              <div class="itemLogo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/laravel/laravel-original.svg"/></div>
+              <header class="itemTitle">
+                <h1>Laravel</h1>
+              </header>
+            </div>
+          </li>
+
+          <li>
+            <div class="listItem">
+              <div class="itemLogo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg"/></div>
+              <header class="itemTitle">
+                <h1>Tailwind</h1>
+              </header>
+            </div>
+          </li>
+
+          <li>
+            <div class="listItem">
+              <div class="itemLogo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-plain.svg"/></div>
+              <header class="itemTitle">
+                <h1>NodeJs</h1>
+              </header>
+            </div>
+          </li>
+        </ul>
+       
+      </div>
+    </section>
+    
+  
+    <section id="contact">
+     <div class="container">
+        <header class="contactTitle">
+         <h1>Contact me</h1>
+        </header>     
+
+        <div id="contacts">
+          <a href="linkedin.com/in/rafael-paulo-65a14921a/" target="_blank">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"/> LinkedIn
+          </a>
+          <div>
+            <img src="assets/img/email.png" alt="">
+              <span>rafaelpaulox@gmail.com</span>
+          </div>
+        </div>
+     </div> 
+    </section>
+  </body>
+
+    
+  <script src="assets/js/main.js"></script>
+
+
+</html>

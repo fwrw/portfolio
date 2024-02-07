@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+  background-color: #EDF2F4;
+  font-family: 'Arimo', sans-serif;
+  overflow-anchor: none;
+}
+
+.container {
+  display: flex;
+  margin: 1.5rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+#header {
+  padding: 12%;
+  height: fit-content;
+  background-color: #2B2D42;
+}
+
+#picture {
+  display: flex;
+  justify-content: center;
+}
+
+#picture img{
+    padding: 3px; 
+    margin-bottom: 24px;
+    width: 20vh;
+    border-radius: 50%;
+    border: solid;
+    border-color: #EF233C;
+}
+
+section #menu {  
+  margin: auto;
+  display: flex;
+  width: fit-content;
+}
+
+#menu ul {
+  font-size: 1.6rem;
+  color: #EDF2F4;
+  list-style: none;
+  display: grid;
+  justify-items: center;
+}
+
+#menu ul li {
+  padding: 6px;
+  
+}
+.menu-btn {
+  padding: 0.2em;
+  border-radius: 0.4rem;
+  transition: font-size 0.3s ease-in-out, color 0.1s ease-in-out, background-color 0.2s ease-in-out;
+}
+.menu-btn:hover{
+  background-color: #8D99AE;
+  color: #001427;
+}
+
+#about {
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+}
+
+#about header {
+  font-size: 28px; 
+}
+
+#about #aboutParagraph {
+    font-size: 22px;
+    max-width: 600px;
+    padding: 24px 8px 0px 8px;
+    text-align: center;
+}
+
+#projects {
+  padding: 0.1rem;
+}
+
+.swiper {
+  width: 70%;
+}
+
+
+.swiper-slide {
+  width: 100%;
+  border: solid 2px;
+  border-radius: 15px;
+  padding: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.swiper-slide img {
+  border-radius: 15px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 400ms ease-in-out;
+}
+
+
+/* Estilos para telas de celular */
+@media screen and (max-width: 1050px) {
+  .swiper {
+    width: 100%;
+  }
+}
+.desc {
+  
+  display: block;
+ 
+}
+
+#learning {
+  height: fit-content;
+  padding: 12px;
+}
+
+  #learningList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Tornando o contêiner de lista um flex container */
+    flex-wrap: wrap; /* Permitindo que os itens sejam envolvidos em várias linhas */
+  }
+  #learningList li {
+    flex: 1; /* Faz com que os itens ocupem a largura igual */
+    box-sizing: border-box;
+    padding: 0 10px; /* Espaçamento entre os itens */
+  }
+
+@media screen and (max-width: 1050px) {
+  #learningList {
+    display: block;
+  }
+  #learningList li {
+    width: 100%;
+    margin-bottom: 24px;
+  }
+
+}
+
+.listItem {
+  min-width: 300px;
+  min-height: 260px;
+  border-radius: 15px;
+  background-color: #EDF2F4;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: start;
+}
+
+.itemLogo {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+}
+
+.itemLogo img{
+  width: 100%;
+}
+
+.itemTitle {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 5%;
+}
+
+.itemTitle h1 {
+ color: #2B2D42; 
+}
+
+#learningHeader h1{
+  margin-bottom: 10px;
+}
