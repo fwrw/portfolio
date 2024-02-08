@@ -190,3 +190,20 @@ section #menu {
 #learningHeader h1{
   margin-bottom: 10px;
 }
+
+.contacts {
+  display: flex;
+  align-items: center;
+}
+
+#linkedin, #email{
+  margin: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+
+#linkedin img, #email img {
+  width: 64px;
+}

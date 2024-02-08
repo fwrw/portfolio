@@ -24,10 +24,10 @@
         <div id="menu" >
           <ul id="info-list">         <!-- Informations Here -->
             <li><h1>Hello there!</h1></li>
-            <li><span class="menu-btn">Who am i</span></li>
-            <li><span class="menu-btn">Projects</span></li>
-            <li><span class="menu-btn">Learning</span></li>
-            <li><span class="menu-btn">Contact</span></li>
+            <li><span id="about-btn" class="menu-btn">Who am i</span></li>
+            <li><span id="projects-btn" class="menu-btn">Projects</span></li>
+            <li><span id="learning-btn" class="menu-btn">Learning</span></li>
+            <li><span id="contact-btn" class="menu-btn">Contact</span></li>
           </ul>
         </div>
       </div> 
@@ -142,17 +142,15 @@
   
     <section id="contact">
      <div class="container">
-        <header class="contactTitle">
-         <h1>Contact me</h1>
-        </header>     
-
-        <div id="contacts">
-          <a href="linkedin.com/in/rafael-paulo-65a14921a/" target="_blank">
-            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"/> LinkedIn
-          </a>
-          <div>
+        <header class="contactTitle"><h1>Contact me</h1></header>     
+        <div class="contacts">
+          <div id="linkedin">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg"/>
+            <a href="https://linkedin.com/in/rafael-paulo-65a14921a/" style="text-decoration: none;" target="_blank"><span >LinkedIn</span></a>
+          </div>
+          <div id="email">
             <img src="assets/img/email.png" alt="">
-              <span>rafaelpaulox@gmail.com</span>
+            <span>heretostayost@gmail.com</span>
           </div>
         </div>
      </div> 
@@ -161,6 +159,6 @@
 
     
   <script src="assets/js/main.js"></script>
-
+  <script src="assets/js/swiper.js" type="">></script>
 
 </html>
